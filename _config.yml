@@ -8,3 +8,13 @@ plugins:
 show_excerpts: true  # Shows post previews instead of full posts
 paginate: 5
 paginate_path: "/page:num/"
+
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
