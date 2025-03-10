@@ -5,4 +5,5 @@ theme: minima  # Change this to another theme later if needed
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-show_downloads: false
+# show_downloads: false
+show_excerpts: true
