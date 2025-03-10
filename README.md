@@ -1,1 +1,1 @@
-# bns.github.io
+# codestruqt.github.io
