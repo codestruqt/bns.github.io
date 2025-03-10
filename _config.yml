@@ -1,10 +1,10 @@
-title: "My AI Blog"
+title: "My Blog"
 author: "BNS Kumar"
 description: "Exploring AI, Large Language Models, and Machine Learning."
-theme: minima  # Change this to another theme later if needed
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-# show_downloads: false
-show_excerpts: true
-future: true
+show_excerpts: true  # Shows post previews instead of full posts
+paginate: 5
+paginate_path: "/page:num/"
