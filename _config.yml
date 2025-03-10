@@ -15,12 +15,3 @@ paginate_path: "/page:num/"
 search: true
 minimal_mistakes_skin: "default"  # Other options: "dark", "air", "contrast"
 
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Blog"
-    url: /blog/
-  - title: "About"
-    url: /about/
-  - title: "Contact"
-    url: /contact/
