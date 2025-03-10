@@ -1,0 +1,8 @@
+title: "My AI Blog"
+author: "BNS Kumar"
+description: "Exploring AI, Large Language Models, and Machine Learning."
+theme: minima  # Change this to another theme later if needed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+show_downloads: false
