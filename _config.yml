@@ -1,13 +1,19 @@
 title: "My Blog"
 author: "BNS Kumar"
 description: "Exploring AI, Large Language Models, and Machine Learning."
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
 show_excerpts: true  # Shows post previews instead of full posts
 paginate: 5
 paginate_path: "/page:num/"
+search: true
+minimal_mistakes_skin: "default"  # Other options: "dark", "air", "contrast"
 
 navigation:
   - title: "Home"
