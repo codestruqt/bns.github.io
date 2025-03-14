@@ -16,6 +16,7 @@ search: true
 minimal_mistakes_skin: "default"  # You can try "dark" or "air"
 include: ["_pages"]
 header_pages:
-  - _pages/about.md
-  - _pages/blog.md
-  - _pages/contact.md
+  - about.md
+  - blog.md
+  - contact.md
+
