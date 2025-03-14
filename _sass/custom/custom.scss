@@ -1,0 +1,16 @@
+body {
+    background-color: #fdfdfd; /* Light background */
+    color: #333; /* Dark text for readability */
+    font-family: "Georgia", serif; /* Classic readable font */
+}
+
+.site-header {
+    background: none; /* Remove header background */
+    border-bottom: 1px solid #ddd; /* Light border for structure */
+}
+
+.page__content {
+    max-width: 800px; /* Keep content readable */
+    margin: 0 auto; /* Center content */
+    padding: 20px;
+}
