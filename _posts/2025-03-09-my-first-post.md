@@ -1,3 +1,4 @@
+image: /assets/images/sample_thumbnail.jpg
 ---
 layout: post
 title: "My First AI Blog Post"
