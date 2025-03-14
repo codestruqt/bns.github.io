@@ -23,3 +23,11 @@ header_pages:
   - _pages/about.md
   - _pages/blog.md
   - _pages/contact.md
+
+# Default layout for the homepage
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "home"

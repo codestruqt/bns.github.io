@@ -1,4 +1,10 @@
-<video autoplay loop muted playsinline class="video-background">
-    <source src="{{ '/assets/videos/sky.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+<body>
+    <video autoplay loop muted playsinline class="video-background">
+        <source src="{{ '/assets/videos/sky.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="site-container">
+        {{ content }}  <!-- This displays the blog content -->
+    </div>
+</body>
