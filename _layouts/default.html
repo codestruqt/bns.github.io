@@ -1,10 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
 <body>
-    <!-- <video autoplay loop muted playsinline class="video-background">
-        <source src="{{ '/assets/videos/sky.mp4' | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video> -->
 
     <div class="site-container">
-        {{ content }}  <!-- This displays the blog content -->
+        {{ content }}  <!-- This displays blog content -->
     </div>
+
+    {% include footer.html %}
 </body>
+</html>
